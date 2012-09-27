@@ -1,6 +1,9 @@
 include "lib://core/log.ms"
 include "lib://game2d/game.ms"
 include "app://gfx.ms"
+include "app://sfx.ms"
+include "app://scenes/menuScene.ms"
+include "app://options.ms"
 
 // custom game class
 class $application$ : Game
@@ -9,13 +12,20 @@ class $application$ : Game
     function start()
     {
         super.start();
-        // additional initialization code goes here
+
+        // load sound and musics
+        SFX.load();
+
+        // load options
+        Options.load();
+        if (Options.musics)
+            SFX.playMusic();
 
         // load graphical resources
         GFX.load();
 
-        // prepare game
-        this._initSprites();
+        // add menu scene
+        this.push(new MenuScene());
     }
 
     function draw(canvas)
@@ -25,20 +35,6 @@ class $application$ : Game
 
         // default drawings
         super.draw(canvas);
-    }
-
-    function process()
-    {
-        // just rotate a sprite
-        this._box.angle += 0.1;
-    }
-
-    function _initSprites()
-    {
-        // create one sprite (crate)
-        this._box = new Sprite({image:GFX.box, x:System.width/2, y:System.height/2});
-        // add sprite to game
-        this.add(this._box);
     }
 
 }
