@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" includeAllResolution="false" applicationType="application" projectOutput="$(workspace_dir)/output" appFile="./SimpleGame.app">
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" includeAllResolution="false" applicationType="application" projectOutput="$(workspace_dir)/output" facebookAppID="" projectArtefact="SimpleGame_$(Platform)_$(Resolution)" appFile="./SimpleGame.app">
   <conditionDefines />
   <NewSkin>true</NewSkin>
   <fileProperties />
@@ -8,12 +8,12 @@
       <publishProperties>
         <property name="icon" value="" />
         <property name="splash" value="" />
-        <property name="bundleIdentifier" value="" />
+        <property name="bundleIdentifier" value="com.GeneratedbyMoscrifIde.SimpleGame" />
         <property name="alias" value="" />
         <property name="keystore" value="" />
         <property name="keypassword" value="" />
         <property name="storepassword" value="" />
-        <property name="supportedDevices" value="" />
+        <property name="supportedDevices" value="universal" />
         <property name="permission" value="" />
       </publishProperties>
       <includes>
@@ -25,13 +25,13 @@
       <publishProperties>
         <property name="icon" value="" />
         <property name="splash" value="" />
-        <property name="bundleIdentifier" value="" />
+        <property name="bundleIdentifier" value="com.GeneratedbyMoscrifIde.SimpleGame" />
         <property name="alias" value="" />
         <property name="keystore" value="" />
         <property name="keypassword" value="" />
         <property name="storepassword" value="" />
-        <property name="supportedDevices" value="" />
-        <property name="installLocation" value="" />
+        <property name="supportedDevices" value="universal" />
+        <property name="installLocation" value="internalOnly" />
         <property name="permission" value="" />
       </publishProperties>
       <includes>
@@ -43,8 +43,8 @@
       <publishProperties>
         <property name="icon" value="" />
         <property name="splash" value="" />
-        <property name="codeSigningIdentity" value="" />
-        <property name="supportedDevices" value="" />
+        <property name="codeSigningIdentity" value="iPhone Developer: Jozef Pridavok (ENR9MZF3YM)" />
+        <property name="supportedDevices" value="universal" />
         <property name="iPhone4-icon" value="" />
         <property name="iPhone4-splash" value="" />
         <property name="iPhone5-icon" value="" />
@@ -53,6 +53,7 @@
         <property name="iPad-splash" value="" />
         <property name="newiPad-icon" value="" />
         <property name="newiPad-splash" value="" />
+        <property name="bundleIdentifier" value="com.GeneratedbyMoscrifIde.SimpleGame" />
       </publishProperties>
       <includes>
         <fonts />

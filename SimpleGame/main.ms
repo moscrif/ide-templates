@@ -22,7 +22,7 @@ class $application$ : Game
     {
         // custom drawings - background
         canvas.drawBitmap(GFX.background, 0, 0);
-        
+
         // default drawings
         super.draw(canvas);
     }
