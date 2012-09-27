@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" vertBodyHeight="0" horzMiddleBodyHeight="0" vertOutputWidth="0" name="FileTemplates" outputDir="$(workspace_dir)/output" tag="0" signapp="false" showLeftPane="true" showRightPane="true" showBottomPane="true" showalllibs="false" selectedDevices="0">
+  <projects />
+  <opened />
+</Workspace>
