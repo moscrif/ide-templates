@@ -2,7 +2,7 @@ type: sql lite database
 name: Address Book
 description: Address book database.
 author: Jozef Pridavok, Moscrif 2010-2012
-param: table_name   text    AddressBook     ^[a-zA-Z_][a-zA-Z0-9_]*$
+param: table_name	text	AddressBook		^[a-zA-Z_][a-zA-Z0-9_]*$
 ################################################################################
 -- Date: $now$
 -- Author: $username$ on $computername$

@@ -2,8 +2,8 @@ type: moscrif source code
 name: Game
 description: Game skeleton
 author: Jozef Prídavok and Moscrif 2010-2012
-param: gameName      text    MyGame     ^[a-zA-Z_][a-zA-Z0-9_]*$
-param: customDraw    bool    true
+param: gameName		text	MyGame	^[a-zA-Z_][a-zA-Z0-9_]*$
+param: customDraw	bool	true
 ################################################################################
 // Date: $now$
 // Author: $username$ on $computername$

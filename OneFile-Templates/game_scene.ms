@@ -2,8 +2,8 @@ type: moscrif source code
 name: Game Scene
 description: Game scene skeleton
 author: Jozef Prídavok and Moscrif 2010-2012
-param: className     text    MyScene     ^[a-zA-Z_][a-zA-Z0-9_]*$
-param: customDraw    bool    true
+param: className	text	MyScene		^[a-zA-Z_][a-zA-Z0-9_]*$
+param: customDraw	bool	true
 ################################################################################
 // Date: $now$
 // Author: $username$ on $computername$
