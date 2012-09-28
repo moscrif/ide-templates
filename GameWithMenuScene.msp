@@ -18,7 +18,7 @@
       </publishProperties>
       <includes>
         <fonts>
-          <string>GameWithMenu/font.ttf</string>
+          <string>GameWithMenuScene/font.ttf</string>
         </fonts>
         <skin name="" theme="" />
       </includes>
@@ -38,7 +38,7 @@
       </publishProperties>
       <includes>
         <fonts>
-          <string>GameWithMenu/font.ttf</string>
+          <string>GameWithMenuScene/font.ttf</string>
         </fonts>
         <skin name="" theme="" />
       </includes>
@@ -61,7 +61,7 @@
       </publishProperties>
       <includes>
         <fonts>
-          <string>GameWithMenu/font.ttf</string>
+          <string>GameWithMenuScene/font.ttf</string>
         </fonts>
         <skin name="" theme="" />
       </includes>

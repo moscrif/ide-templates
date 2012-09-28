@@ -1,5 +1,5 @@
            main: main.ms
-          title: Game With Menu
+          title: Game With Menu Scene
     description: 
          author: Moscrif
       copyright: 

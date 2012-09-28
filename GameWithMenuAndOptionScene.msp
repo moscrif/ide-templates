@@ -3,7 +3,9 @@
   <conditionDefines />
   <NewSkin>true</NewSkin>
   <fileProperties>
-    <property path="./GameWithMenuAndOptionScene/settings.dat" isDirectory="false" excluded="true" />
+    <property path="./GameWithMenuAndOptionScene/settings.dat" isDirectory="false" excluded="true">
+      <conditions />
+    </property>
   </fileProperties>
   <devices>
     <device targetPlatform="100">
