@@ -4,7 +4,7 @@
          author: Moscrif
       copyright: 
        homepage: 
-           uses: core ui uix uix-skin media sqlite net game2d crypto box2d graphics sensor
+           uses: core ui game2d graphics media
     orientation: portrait
  remote-console: 
         version: 1.0
