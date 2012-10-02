@@ -1,6 +1,6 @@
 type: moscrif source code
 name: Game Scene
-description: Game scene skeleton
+description: Game scene
 author: Jozef Prídavok and Moscrif 2010-2012
 param: className	text	MyScene		^[a-zA-Z_][a-zA-Z0-9_]*$
 param: customDraw	bool	true
